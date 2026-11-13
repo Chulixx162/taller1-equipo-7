@@ -1,1 +1,1 @@
-# Equipo 7 - Git Masters
+# Equipo 7 - Los Commiteros

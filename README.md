@@ -1,1 +1,1 @@
-# taller1-equipo-7
+# Equipo 7 - Los Commiteros

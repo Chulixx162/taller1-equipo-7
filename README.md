@@ -31,7 +31,7 @@ HuilaTour Conecta es una plataforma web diseñada para promocionar los atractivo
    ```bash
    git clone https://github.com/Chulixx162/taller1-equipo-7.git
    ```
-3. Entra a la carpeta del proyecto:
+3. Entra a la carpeta del proyecto: 
    ```bash
    cd taller1-equipo-7
    ```

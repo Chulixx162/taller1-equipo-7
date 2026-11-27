@@ -82,4 +82,34 @@ proyecto-formativo/
 └── README.md                   # Documentación general e instrucciones de instalación
 
 ## 5. Git: ramas, commits y pull requests
-(pendiente)
+
+### Nombres de ramas
+- Formato: `tipo/descripcion-corta`, en minúsculas y separando palabras con guiones.
+- Tipos permitidos:
+  - `feature/` para nuevas funciones o archivos
+  - `fix/` para corregir errores
+  - `docs/` para documentación
+  - `chore/` para tareas de mantenimiento (por ejemplo, `.gitignore`)
+- Ejemplos: `feature/login-usuario`, `fix/error-conexion`, `docs/readme-equipo`.
+- Nunca se trabaja directamente en `main`.
+
+### Formato de commits
+- Se usa **Conventional Commits**: `tipo: descripción corta`.
+- Tipos: `feat`, `fix`, `docs`, `chore`.
+- La descripción va en minúsculas, en presente y sin punto final (máximo 72 caracteres).
+- Ejemplos:
+  - `feat: agrega formulario de registro`
+  - `fix: corrige error al guardar la cita`
+  - `docs: completa README del equipo`
+- Un commit debe hacer un solo cambio.
+
+### Reglas de pull requests
+- Todo cambio llega a `main` mediante un pull request.
+- El título del PR sigue el mismo formato que los commits.
+- La descripción explica brevemente qué se cambió y por qué.
+- Cada PR debe estar vinculado a un issue (por ejemplo, `Closes #12` en la descripción).
+- Cada PR debe ser revisado y **aprobado por al menos un compañero** antes de fusionarse.
+- Nadie aprueba ni fusiona su propio PR.
+- Los comentarios de la revisión se responden antes de fusionar.
+- Después de fusionar, se actualiza el repositorio local con `git switch main` y `git pull origin main`.
+- Las ramas se mantienen pequeñas y se eliminan una vez fusionadas.

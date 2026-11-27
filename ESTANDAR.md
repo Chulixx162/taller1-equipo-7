@@ -29,23 +29,33 @@ Lenguaje(s) del proyecto formativo: PHP, MySQL, HTML5, CSS3 y JavaScript.
 (pendiente)
 
 ## 4. Estructura de carpetas
+## 4. Estructura de carpetas
+
+El proyecto formativo sigue una arquitectura **MVC (Modelo - Vista - Controlador)** separando la lógica del servidor, el acceso a datos y los recursos públicos accesibles desde el navegador.
 
 ```text
-proyecto/
-├── app/
-│   ├── config/          # Conexión a BD y variables globales
-│   ├── controllers/     # Lógica de negocio y peticiones
-│   ├── models/          # Consultas SQL y acceso a datos
-│   └── views/           # Plantillas HTML/PHP organizadas por módulo
-├── public/              # Punto de entrada (index.php) y recursos públicos
-│   ├── css/             # Hojas de estilo
-│   ├── js/              # Scripts del cliente
-│   └── img/             # Imágenes e íconos
-├── database/            # Scripts SQL (estructura y datos de prueba)
-├── .editorconfig        # Reglas automáticas de formato
-├── .gitignore           # Archivos excluidos del repositorio
-├── ESTANDAR.md          # Estándar de codificación del equipo
-└── README.md            # Documentación principal
+proyecto-formativo/
+├── app/                        # Núcleo de la aplicación (no accesible directamente por URL)
+│   ├── config/                 # Configuración general, constantes y conexión a base de datos
+│   ├── controllers/            # Controladores que reciben peticiones y coordinan la lógica
+│   ├── models/                 # Modelos y consultas SQL hacia la base de datos
+│   └── views/                  # Vistas HTML/PHP organizadas por módulos
+│       ├── auth/               # Login, registro y recuperación de contraseña
+│       ├── dashboard/          # Panel principal y estadísticas
+│       └── layouts/            # Plantillas reutilizables (header, navbar, footer)
+├── public/                     # Raíz pública del servidor web (única carpeta expuesta)
+│   ├── assets/                 # Recursos estáticos del frontend
+│   │   ├── css/                # Hojas de estilo propias y librerías
+│   │   ├── js/                 # Scripts de interacción y validaciones
+│   │   └── img/                # Logotipos, íconos e imágenes del sistema
+│   └── index.php               # Punto de entrada único (Front Controller)
+├── database/                   # Scripts de base de datos y respaldos
+│   ├── schema.sql              # Estructura de tablas, llaves y relaciones
+│   └── seeds.sql               # Datos iniciales de prueba
+├── .editorconfig               # Estandarización automática de formato en el editor
+├── .gitignore                  # Exclusión de archivos locales, logs y credenciales
+├── ESTANDAR.md                 # Estándar de codificación del equipo
+└── README.md                   # Documentación general e instrucciones de instalación
 
 ## 5. Git: ramas, commits y pull requests
 (pendiente)

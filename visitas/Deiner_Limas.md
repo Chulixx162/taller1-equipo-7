@@ -1,4 +1,4 @@
-# Visita de Nombre Completo (Equipo N)-
+# Visita de Deiner Limas (Equipo 6)-
 
 Lo que más me gustó de este repositorio:es el orden que se maneja en el repositorio del equipo 7
 Una sugerencia para mejorar el README:Mas colores en la presentacion (se siente vacio )

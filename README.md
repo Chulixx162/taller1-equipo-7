@@ -2,7 +2,7 @@
 # HUILA TOUR 
 
 ## Descripción
-HuilaTour Conecta es una plataforma web diseñada para promocionar los atractivos turísticos del departamento del Huila, Colombia. Permite a los usuarios conocer destinos naturales, culturales y gastronómicos, consultar información turística y comunicarse directamente con los proveedores de servicios. Su objetivo es fortalecer el turismo regional y facilitar el acceso a información sobre los lugares más representativos del Huila. La plataforma no permite realizar reservas.
+HuilaTour Conecta es una plataforma web diseñada para promocionar los atractivos turísticos del departamento del Huila, Colombia. Permite a los usuarios conocer destinos naturales, culturales y gastronómicos, consultar información turística y comunicarse directamente con los proveedores de servicios. Su objetivo es fortalecer el turismo regional y facilitar el acceso a información sobre los lugares más representativos de el Huila. La plataforma no permite realizar reservas.
 
 
 ## Tecnologías
